@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rock of Untouchable Ministry - Empowering Lives Through Divine Guidance</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="logo-container">
+                <img src="download (1).jpeg" alt="The Rock of Untouchable Ministry Logo" class="logo-image">
+                <div class="logo-text">The Rock of Untouchable Ministry</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#weekly-activities">Weekly Activities</a></li>
+                <li><a href="#prayer-request">Prayer Request</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <!-- Optional overlay for better text visibility -->
+            <div class="hero-content">
+                <h1>Welcome to The Rock of Untouchable Ministry</h1>
+                <p>"And whoever falls on this stone will be broken to pieces; and when it falls on anyone, it will crush him" - Matthew 21:44</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Join Us</a>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>The Rock of Untouchable Ministry is a vibrant, Spirit-filled community dedicated to empowering lives through divine guidance and prophetic insight. Founded on the unshakeable foundation of God's Word, our ministry serves as a beacon of
+                    hope, transformation, and spiritual growth.</p>
+                <p>Our mission is to equip believers with the tools and understanding necessary to walk confidently in their God-given purpose. Through powerful worship, anointed teaching, and prophetic ministry, we strive to create an atmosphere where individuals
+                    can encounter the living God and experience His transformative power.</p>
+                <p>At The Rock of Untouchable Ministry, we believe in the active presence of the Holy Spirit and the continuation of all spiritual gifts in the modern church. Our leadership team is committed to fostering an environment of love, acceptance,
+                    and spiritual maturity, where every member can grow in their faith and discover their unique calling in Christ.</p>
+            </div>
+            <div class="about-image">
+                <img src="alter.jpg" alt="The Rock of Untouchable Ministry">
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="container">
+        <h2>Church Activities</h2>
+        <div class="box-grid">
+            <div class="box">
+                <h3>Saturday Program</h3>
+                <p>Join us every Saturday at 09:00 AM. Atmosphere of Deliverance and Prophetic Hour</p>
+            </div>
+            <div class="box">
+                <h3>Sunday Service</h3>
+                <p>Join us every Sunday at 09:00 AM for a powerful worship experience and prophetic ministry.</p>
+            </div>
+            <div class="box">
+                <h3>Bible Study</h3>
+                <p>Deepen your understanding of God's Word in our Thursday evening Bible study sessions.</p>
+            </div>
+            <div class="box">
+                <h3>Youth Group</h3>
+                <p>Our vibrant youth ministry meets every Friday evening for fellowship and spiritual growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="branches" class="container">
+        <h2>Our Branches</h2>
+        <div class="box-grid">
+            <div class="box">
+                <h3>HEADQUARTER</h3>
+                <h4>Solution Ground</h4>
+                <p>123 Faith Street, Cityville, State 12345</p>
+                <p>Phone: (234) 8033346330</p>
+            </div>
+            <div class="box">
+                <h3>EYITA BRANCH</h3>
+                <h4>Miracle Arena</h4>
+                <p>10 EWUJUMO STREET, BALO EYITA, ITALOWO B/STOP, OGUN STATE.</p>
+                <p>Phone: (234) 8033346330</p>
+            </div>
+            <div class="box">
+                <h3>OGIJO BRANCH</h3>
+                <h4>Testimony Arena</h4>
+                <p>789 Love Lane, Villageton, State 23456</p>
+                <p>Phone: (234) 8033346330</p>
+            </div>
+            <div class="box">
+                <h3>ISIWU BRANCH</h3>
+                <h4>Fulfilment Arena</h4>
+                <p>789 Love Lane, Villageton, State 23456</p>
+                <p>Phone: (234) 8033346330</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="container">
+        <h2>Support Our Ministry</h2>
+        <div class="box-grid">
+            <div class="box">
+                <h3>Online Offering Giving</h3>
+                <p>Support our ministry through secure online donations.</p>
+                <a href="#" class="btn btn-primary" id="donateBtn">Donate Now</a>
+                <div id="accountNumber" style="display: none; margin-top: 10px;">
+                    <h4>Church Account Number:</h4>
+                    <p>1234567890</p>
+                    <p>Zenith Bank</p>
+
+                </div>
+            </div>
+
+            <!-- Include the JavaScript at the end of your body -->
+            <script>
+                // Get the button and the account number div
+                var btn = document.getElementById("donateBtn");
+                var accountNumberDiv = document.getElementById("accountNumber");
+
+                // When the user clicks the button, toggle the account number visibility
+                btn.onclick = function(event) {
+                    event.preventDefault(); // Prevent the default anchor behavior
+                    if (accountNumberDiv.style.display === "none" || accountNumberDiv.style.display === "") {
+                        accountNumberDiv.style.display = "block"; // Show the account number
+                    } else {
+                        accountNumberDiv.style.display = "none"; // Hide the account number
+                    }
+                }
+            </script>
+            <div class="box">
+                <h3>To pay TITHE</h3>
+                <p>Send your tithe to the account number below</p>
+            </div>
+            <div class="box">
+                <h3>Donation and Caregiving</h3>
+                <p>Donate during our services or at our church office.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="weekly-activities" class="container">
+        <h2>Activities of all Branches</h2>
+        <div class="box-grid">
+            <div class="box">
+                <h3>Monday-Headquarter</h3>
+                <p>6:00 PM - Campers Prayer</p>
+            </div>
+            <div class="box">
+                <h3>Tuesday-Igando Branch</h3>
+                <p>9:00 AM - Deliverance/Prophetic Hour</p>
+            </div>
+            <div class="box">
+                <h3>Wednesday-Headquarter</h3>
+                <p>9:00 PM - Counseling</p>
+            </div>
+            <div class="box">
+                <h3>Thursday-Eyita</h3>
+                <p>9:00 AM - Deliverance/Prophetic Hour</p>
+            </div>
+            <div class="box">
+                <h3>Friday-Ogijo Branch</h3>
+                <p>9:00 AM - Deliverance/Prophetic Hour</p>
+            </div>
+            <div class="box">
+                <h3>Saturday-Headquarter</h3>
+                <p>9:00 AM - Deliverance/Prophetic Hour</p>
+            </div>
+            <div class="box">
+                <h3>Sunday-All Branches</h3>
+                <p>7:00 AM - Sunday School</p>
+                <p>8:00 PM - Sunday Service</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="prayer-request" class="container">
+        <h2>Send Prayer Request</h2>
+        <form id="contact-form" action="send_prayer_request.php" method="POST">
+            <!-- Updated action and method -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Enter your Prayer Request" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>The Rock of Untouchable Ministry</h3>
+                    <p>Empowering lives through divine guidance and prophetic insight.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                        <li><a href="#prayer-request">Prayer Request</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 The Rock of Untouchable Ministry. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
